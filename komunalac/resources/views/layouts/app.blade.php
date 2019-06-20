@@ -76,7 +76,7 @@ function current_page ($url = "/") {
              
    @yield('content')
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6FqehalRgD7zrzJULENjSzuxaCQXV4bo&callback=initMap&libraries=places">
+        src="https://maps.googleapis.com/maps/api/js?key=callback=initMap&libraries=places">
 </script>
 </body>
 </html>
